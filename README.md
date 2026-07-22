@@ -10,6 +10,8 @@
 
 **Technologies/Services Used:** OSTicket
 
+**Why this matters:** This configuration mirrors how a real  IT department would structure its help desk before going live — clear role-based access, department-based routing, and SLA tiers tied to business urgency. Getting this foundation right up front reduces misrouted tickets and support delays once the system is in active use — directly explored in the scenario walkthrough that follows this project.
+
 ---
 
 ## Overview
@@ -91,8 +93,8 @@ Agents are the staff who respond to and resolve tickets. Four agents were added:
 
 5. Set each agent's password directly (rather than emailing a reset link), unchecking "require password change at next login" for the test environment.
 
-![Setting agent password](images/image17.png)
 ![Password confirmation](images/image50.png)
+![Setting agent password](images/image17.png)
 
 ## Part 5: Configure Users
 
@@ -130,7 +132,7 @@ Help Topics are the categories end users select when submitting a new ticket.
 
 ![Help Topics overview](images/image21.png)
 
-2. Added top-level categories: **Feedback**, **General Inquiry**, and **Report A Problem** — each linked to the Support department.
+2. Added top-level categories: **Feedback**, **General Inquiry**, and **Report A Problem** — each linked to the Support department under "New Ticket Options" tab. 
 
 ![Adding help topic categories](images/image10.png)
 
@@ -140,4 +142,3 @@ Help Topics are the categories end users select when submitting a new ticket.
 
 ---
 
-**Why this matters:** This configuration mirrors how a real health-tech or insurance IT department would structure its help desk before go-live — clear role-based access, department-based routing, and SLA tiers tied to business urgency. Getting this foundation right up front reduces misrouted tickets and support delays once the system is in active use — directly explored in the scenario walkthrough that follows this project.
